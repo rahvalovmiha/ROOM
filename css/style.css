@@ -177,7 +177,7 @@ p {
 
 /* brand__container{} */
 
-.brand__box{
+.brand__box {
     max-width: 1090px;
     margin: 212px auto 0;
 }
@@ -204,7 +204,7 @@ p {
 
 /* .brand__box-list{} */
 
-.brand__list{
+.brand__list {
     max-width: 1090px;
     display: flex;
     align-items: center;
@@ -223,14 +223,83 @@ p {
 
 /* .copani__container{} */
 
-.copani__box{
+.copani__box {
     max-width: 1344px;
     margin: 190px auto 0;
 }
 
-.copani__photo{
+.copani__photo {
     max-width: 1344px;
     height: 700px;
 }
 
 /* copani */
+
+/* .work{} */
+
+/* .work__container{} */
+
+.work__box {
+    max-width: 1090px;
+    margin: 83px auto 0;
+}
+
+.work__title {
+    color: rgb(26, 26, 26);
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+}
+
+.work__text {
+    color: rgb(70, 133, 110);
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    margin-bottom: 43px;
+}
+
+.work__list {
+    max-width: 1090px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.work__item {
+    max-width: 323px;
+}
+
+.work__item-box {
+    width: 162px;
+    margin: 0 auto 26px;
+}
+
+.work__item-photo {
+    width: 162px;
+    height: 121px;
+}
+
+.work__item-title {
+    color: rgb(26, 26, 26);
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 18px;
+}
+
+.work__item-text {
+    color: rgb(170, 170, 170);
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 21px;
+}
+
+/* work */
