@@ -18,7 +18,7 @@ p {
     padding: 0 16px;
 }
 
-.header__container{
+.header__container {
     display: flex;
     align-items: center;
 }
@@ -72,7 +72,7 @@ p {
     text-transform: uppercase;
 }
 
-.header__text::before{
+.header__text::before {
     width: 20px;
     height: 24px;
     display: block;
@@ -83,9 +83,53 @@ p {
     background-size: cover;
 }
 
-.header__shop{
+.header__shop {
     width: 25px;
     height: 25px;
 }
 
 /* header */
+
+/* .hero{} */
+
+/* .hero__container{} */
+
+.hero-photo{
+    width: 1327px;
+    margin: 0 auto;
+}
+
+.hero__photo{
+    width: 1327px;
+    height: 746px;
+    margin: 49px auto 80px;
+}
+
+.hero__info{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 136px;
+    margin: 0 auto 210px;
+}
+
+.hero__title {
+    width: 355px;
+    color: rgb(26, 26, 26);
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+}
+
+.hero__text {
+    width: 569px;
+    color: rgb(170, 170, 170);
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+/* hero */
