@@ -218,3 +218,19 @@ p {
 /* .item__photo{} */
 
 /* brand */
+
+/* .copani{} */
+
+/* .copani__container{} */
+
+.copani__box{
+    max-width: 1344px;
+    margin: 190px auto 0;
+}
+
+.copani__photo{
+    max-width: 1344px;
+    height: 700px;
+}
+
+/* copani */
