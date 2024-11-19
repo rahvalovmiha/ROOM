@@ -380,3 +380,68 @@ p {
 }
 
 /* estimation */
+
+/* .conveniences{} */
+
+/* .conveniences__container{} */
+
+.conveniences__box1-info {
+    min-width: 882px;
+    margin: 240px auto 135px;
+}
+
+.box1-info__text {
+    color: rgb(170, 170, 170);
+    font-family: sans-serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 52px;
+    margin-bottom: 25px;
+}
+
+.box1__title {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 52px;
+}
+
+.conveniences__box2-info {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 64px;
+}
+
+.conveniences__photo {
+    width: 671px;
+    height: 672px;
+}
+
+.conveniences__we-sell-direct {
+    max-width: 529px;
+    height: 156px;
+}
+
+.we-sell-direct__title {
+    color: rgb(26, 26, 26);
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+.we-sell-direct__text {
+    max-width: 311px;
+    color: rgb(170, 170, 170);
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
