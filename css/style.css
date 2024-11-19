@@ -450,11 +450,42 @@ p {
 
 /* see__container{} */
 
-.see__box{
+.see__box {
     max-width: 1344px;
     margin: 288px auto 0;
 }
 
-.see__photo{
+.see__photo {
     width: 1340px;
 }
+
+/* .trial-version{} */
+
+/* .trial-version__container{} */
+
+.trial-version__box {
+    max-width: 1200px;
+    margin: 286px auto 79px;
+    border-radius: 2px;
+    background: rgb(242, 242, 242);
+}
+
+.trial-version__title {
+    padding-top: 63px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 50.6px;
+    text-align: center;
+}
+
+.trial-version__list{
+    max-width: 800px;
+}
+
+/* .trial-version__item{} */
+
+/* .trial-version__item-photo{} */
+
+/* .trial-version__item-text{} */
