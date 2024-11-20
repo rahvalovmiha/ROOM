@@ -480,12 +480,64 @@ p {
     text-align: center;
 }
 
-.trial-version__list{
+.trial-version__list {
     max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-/* .trial-version__item{} */
+.trial-version__item {
+    max-width: 200px;
+    margin: 65px 0;
+}
 
-/* .trial-version__item-photo{} */
+.trial-version__item-photo {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 22px;
+}
 
-/* .trial-version__item-text{} */
+.trial-version__item-text {
+    color: rgb(26, 26, 26);
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.trial-version__btn {
+    display: block;
+    margin: 0 auto;
+    border: 0.5px solid transparent;
+    border-radius: 2px;
+    background: rgb(70, 133, 110);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.trial-version__btn:hover {
+    border: 1px solid white;
+    background: black;
+}
+
+.trial-version__text {
+    color: rgb(170, 170, 170);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 26px;
+}
